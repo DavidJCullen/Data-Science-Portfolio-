@@ -22,6 +22,12 @@ This example includes the Fashion MNIST dataset. The data training set totals 60
  **O2**: The transpose of O1 was passed to a hidden linear layer and then to the RELU activation function.
 
  **Output**: The mean of each class was passed to SoftMax cross entropy loss function. 
+ 
+ 
+  **Example training accuracy output:**
+  
+ ![](/images/mages/MLP.png)
+
 
 
 ## [3. Regression Examples](https://github.com/DavidJCullen/Regression-/blob/main/Regression.ipynb):
