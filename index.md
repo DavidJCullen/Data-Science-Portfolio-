@@ -1,5 +1,3 @@
-# David Cullen Data Science Portfollio
-
 # Project Examples:
 
 This is an overview of projects I have completed using Python. 
