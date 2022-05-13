@@ -1,9 +1,5 @@
 ## David Cullen Data Science Portfollio
 
-You can use the [editor on GitHub](https://github.com/DavidJCullen/Data-Science-Portfolio-/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ### Project Examples:
 
 This is an overview of projects I have completed using Python. 
@@ -12,8 +8,7 @@ This is an overview of projects I have completed using Python.
 
 The machine learning problem is in relation to #Hums and Whistles Audio Dataset Sample# of Starwars and Harry Potter themetunes. The problem that this work aims to solve is binary classification, building a machine learning pipeline that takes as an input a Potter or Starwars audio segment and predicts its song and label.
 
-
-https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Unknown-2.png
+[](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Unknown-2.png)
 
 # 2. Classification Using a Neural Network
 
