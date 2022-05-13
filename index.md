@@ -4,25 +4,26 @@ This is an overview of projects I have completed using Python.
 
 ## 1. Classification Using Machine Learning Pipeline
 
-This machine learning problem is in relation to a Hums and Whistles Audio Dataset Sample of Starwars and Harry Potter theme tunes. The problem that this work aims to solve is binary classification, building a machine learning pipeline that takes as an input a Potter or Starwars audio segment and predicts its song and label.
+The dataset has 800 indiviudal hums and whistles audio samples, consisting of Starwars and Harry Potter theme tunes. The problem solved is a binary classification, building a machine learning pipeline that takes as an input Potter or Starwars audio segment and predicts the song and label.
 
 
   **Example Confusion Matrix obtained from the classification task:**
 
 ![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Confusion%20Matrix.png)
 
-## 2. Classification Using a Neural Network
+## 2. Classification Using a Neural Network:
 
-**Stem**: A member function was created in Net Class. Each image was divided into non- overlapping patches. The patch size was 14 X 14 (creating 4 patches from one 28 x 28 image). In order to do this torch, unfold was used specifying the dimensions which the unfolds were to occur, the kernel size (slice size) and stride (step) length. The unfold was reshaped to the following tensor shape: 256 (batches), 4 (channels) and 196 (Height X Width).
+The Fashion MNIST data was loaded using the utils.py file. The data training set totals 60,000 images and the test set 10,000 images, consisting of 10 classes  of various fashion items (shirt,sandal, pullover etc). Each image is 28 pixels in height and 28 pixels in width, representing a total of 784 pixels. An MLP pipeline was built to classsify each image covering:
 
-**Backbone**: One block was created within the Net Class. The block consists of 3 fully connected layers:
+**Stem**: Each image was divided into non- overlapping patches. The patch size was 14 X 14 (creating 4 patches from one 28 x 28 image). In order to do this torch, unfold was used specifying the dimensions which the unfolds were to occur, the kernel size (slice size) and stride (step) length. The unfold was reshaped to the following tensor shape: 256 (batches), 4 (channels) and 196 (Height X Width).
 
- **O1**: the transpose of x was passed to a linear layer and then to the RELU activation function.
- Second Multi-Layer Perceptron:
+**Backbone**: One block was created. The block consists of 3 fully connected layers:
 
- **O2** : the transpose of O1 was passed to a hidden linear layer and then to the RELU activation function.
+ **O1**: The transpose of x was passed to a linear layer and then to the RELU activation function.
+ 
+ **O2** : The transpose of O1 was passed to a hidden linear layer and then to the RELU activation function.
 
- **Output**:Mean class: the mean of each class was passed to SoftMax cross entropy loss function. 
+ **Output**: The mean of each class was passed to SoftMax cross entropy loss function. 
 
 
 # 3. Regression Examples:
