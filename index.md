@@ -32,6 +32,8 @@ Second Multi-Layer Perceptron:
 Examples of regression from using an analytuical approach to find weights in linear regression, to expermenting with a variety of orders.
 
 
+!(https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Regression%20Example.png)
+
 # 4 Hadoop MRJob MapReduce 
 
 Examples of big data processing using MapReduce.
