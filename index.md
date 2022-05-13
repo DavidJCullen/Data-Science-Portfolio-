@@ -34,7 +34,7 @@ Examples of regression from using an analytuical approach to find weights in lin
 
 # 4. Principle Component Analysis Example
 
-Using the pre-processed breast cancer dataset, a Principal Component Analysis has been undertaken. The exampled variance ratio for each component has been computed, and  scatterplot of all samples along two principal components, color-coded according to the "Class" column has been provided.
+Using a pre-processed breast cancer dataset, a Principal Component Analysis was undertaken and a  scatterplot of all samples along two principal components has been provided.
 
 
   **Example Output::**
