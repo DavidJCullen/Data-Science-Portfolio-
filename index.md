@@ -17,22 +17,30 @@ This machine learning problem is in relation to a Hums and Whistles Audio Datase
 
 **Backbone**: One block was created within the Net Class. The block consists of 3 fully connected layers:
 
-**O1**: the transpose of x was passed to a linear layer and then to the RELU activation function.
-Second Multi-Layer Perceptron:
+ **O1**: the transpose of x was passed to a linear layer and then to the RELU activation function.
+ Second Multi-Layer Perceptron:
 
-**O2** : the transpose of O1 was passed to a hidden linear layer and then to the RELU activation function.
+ **O2** : the transpose of O1 was passed to a hidden linear layer and then to the RELU activation function.
 
-**Output**:Mean class: the mean of each class was passed to SoftMax cross entropy loss function. 
+ **Output**:Mean class: the mean of each class was passed to SoftMax cross entropy loss function. 
 
 
 # 3. Regression Examples:
 
 Examples of regression from using an analytuical approach to find weights in linear regression, to expermenting with a variety of orders.
 
-
 ![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Regression%20Example.png)
 
-# 4 Hadoop MRJob MapReduce 
+# 4. Principle Component Analysis Example
+
+Using the pre-processed breast cancer dataset, a Principal Component Analysis has been undertaken. The exampled variance ratio for each component has been computed, and  scatterplot of all samples along two principal components, color-coded according to the "Class" column has been provided.
+
+
+  **Example Output::**
+
+![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/PCA.png)
+
+# 4 Hadoop MRJob MapReduce:
 
 Examples of big data processing using MapReduce.
 
