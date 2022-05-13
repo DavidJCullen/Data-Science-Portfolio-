@@ -26,13 +26,13 @@ The Fashion MNIST data was loaded using the utils.py file. The data training set
  **Output**: The mean of each class was passed to SoftMax cross entropy loss function. 
 
 
-# 3. Regression Examples:
+## 3. Regression Examples:
 
 Examples of regression from using an analytuical approach to find weights in linear regression, to expermenting with a variety of orders.
 
 ![](/images/Regression%20Example.png)
 
-# 4. Principle Component Analysis Example
+## 4. Principle Component Analysis Example
 
 Using a pre-processed breast cancer dataset, a Principal Component Analysis was undertaken and a  scatterplot of all samples along two principal components has been provided.
 
@@ -41,7 +41,7 @@ Using a pre-processed breast cancer dataset, a Principal Component Analysis was 
 
 ![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/PCA.png)
 
-# 4 Hadoop MRJob MapReduce:
+## 4 Hadoop MRJob MapReduce:
 
 Examples of big data processing using MapReduce including:
 
