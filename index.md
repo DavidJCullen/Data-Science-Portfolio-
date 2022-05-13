@@ -9,7 +9,7 @@ The dataset has over 800 individual hums and whistles audio samples, consisting 
 
 ![](/images/Confusion Matrix.png)
 
-## [2. Classification Using a Neural Network] (https://github.com/DavidJCullen/MLP-Classificatiion-MNIST-Fashion-Dataset/blob/main/MLP%20Classification%20.ipynb):
+## [2. Classification Using a Neural Network](https://github.com/DavidJCullen/MLP-Classificatiion-MNIST-Fashion-Dataset/blob/main/MLP%20Classification%20.ipynb):
 
 This example includes the Fashion MNIST dataset. The data training set totals 60,000 images and the test set 10,000 images, consisting of 10 classes of various fashion items (shirt, sandal, pullover etc). Each image is 28 pixels in height and 28 pixels in width, representing a total of 784 pixels. A Multi-Layer Perceptron pipeline was built to classify each image, covering:
 
