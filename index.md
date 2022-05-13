@@ -1,19 +1,19 @@
-## David Cullen Data Science Portfollio
+# David Cullen Data Science Portfollio
 
-### Project Examples:
+# Project Examples:
 
 This is an overview of projects I have completed using Python. 
 
-# 1. Classification Using Machine Learning Pipeline
+## 1. Classification Using Machine Learning Pipeline
 
-The machine learning problem is in relation to #Hums and Whistles Audio Dataset Sample# of Starwars and Harry Potter themetunes. The problem that this work aims to solve is binary classification, building a machine learning pipeline that takes as an input a Potter or Starwars audio segment and predicts its song and label.
+This machine learning problem is in relation to a Hums and Whistles Audio Dataset Sample of Starwars and Harry Potter theme tunes. The problem that this work aims to solve is binary classification, building a machine learning pipeline that takes as an input a Potter or Starwars audio segment and predicts its song and label.
 
 
   **Example Confusion Matrix obtained from the classification task:**
 
 ![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Confusion%20Matrix.png)
 
-# 2. Classification Using a Neural Network
+## 2. Classification Using a Neural Network
 
 **Stem**: A member function was created in Net Class. Each image was divided into non- overlapping patches. The patch size was 14 X 14 (creating 4 patches from one 28 x 28 image). In order to do this torch, unfold was used specifying the dimensions which the unfolds were to occur, the kernel size (slice size) and stride (step) length. The unfold was reshaped to the following tensor shape: 256 (batches), 4 (channels) and 196 (Height X Width).
 
