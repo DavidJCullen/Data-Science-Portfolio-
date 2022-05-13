@@ -1,6 +1,6 @@
 # Project Examples:
 
-## 1. Classification Using Machine Learning Pipeline
+## [1. Classification Using Machine Learning Pipeline](https://github.com/DavidJCullen/ML-Pipeline-for-Classification/blob/main/Hums_and_Whistles_ML_Pipeline_(Binary_Class)_MileEnd_Dataset_.ipynb)
 
 The dataset has over 800 individual hums and whistles audio samples, consisting of Star Wars and Harry Potter labelled theme tunes. This is an example of a binary classification problem, that uses a machine learning pipeline to take an audio segment and predict its corresponding classes/label.
 
@@ -31,7 +31,7 @@ Examples of regression using an analytical approach to find weights, experimenti
 ![](/images/Regression Example.png)
 
 
-## 4. Principle Component Analysis Example
+## [4. Principle Component Analysis Example](https://github.com/DavidJCullen/PCA-Example/blob/main/Principle%20Component%20Analysis%20Example%20Using%20Wisconsin%20Breast%20Cancer%20Data.ipynb)
 
 Using the  Breast Cancer Wisconsin (Diagnostic) Data Set a Principal Component Analysis was undertaken including a scatterplot to visualise the output.
 
@@ -40,7 +40,7 @@ Using the  Breast Cancer Wisconsin (Diagnostic) Data Set a Principal Component A
 
 ![](/images/PCA.png)
 
-## 4 [Hadoop MapReduce](https://github.com/DavidJCullen/MapReduce-Example):
+## [5. Hadoop MapReduce](https://github.com/DavidJCullen/MapReduce-Example):
 
 Examples of big data processing Ethereum transaction data including:
 
