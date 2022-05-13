@@ -11,7 +11,7 @@ The machine learning problem is in relation to #Hums and Whistles Audio Dataset 
 
   **Example Confusion Matrix obtained from the classification task:**
 
-![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Unknown-2.png)
+![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Confusion%20Matrix.png)
 
 # 2. Classification Using a Neural Network
 
