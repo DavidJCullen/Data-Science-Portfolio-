@@ -45,10 +45,10 @@ Using the pre-processed breast cancer dataset, a Principal Component Analysis ha
 
 Examples of big data processing using MapReduce including:
 
-   Part A: Timeseries Analysis 
-   Part B: Top 10 Most Popular Services 
-   Part C: Top 10 Most Active Miners 
-   Part D:  Popular Scams and Gas Guzzlers
+   1. Part A: Timeseries Analysis 
+   2. Part B: Top 10 Most Popular Services 
+   3. Part C: Top 10 Most Active Miners 
+   4. Part D:  Popular Scams and Gas Guzzlers
    
 ![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Ether.png)
    
