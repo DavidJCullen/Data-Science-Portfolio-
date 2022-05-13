@@ -9,7 +9,7 @@ The dataset has 800 indiviudal hums and whistles audio samples, consisting of St
 
   **Example Confusion Matrix obtained from the classification task:**
 
-![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Ether.png)
+![](/images/Confusion Matrix.png)
 
 ## 2. Classification Using a Neural Network:
 
@@ -50,7 +50,7 @@ Examples of big data processing using MapReduce including:
    3. Part C: Top 10 Most Active Miners 
    4. Part D:  Popular Scams and Gas Guzzlers
    
-![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Ether.png)
+![](/images/Ether.png)
 
 
 
