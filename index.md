@@ -4,9 +4,6 @@
 
 The dataset has over 800 individual hums and whistles audio samples, consisting of Star Wars and Harry Potter labelled theme tunes. This is an example of a binary classification problem, that uses a machine learning pipeline to take an audio segment and predict its corresponding classes/label.
 
- **Example Spectrogram of Audio Sample: **
-
-![](/images/Spectogram.png)
 
   **Example Confusion Matrix obtained from the classification task:**
 
