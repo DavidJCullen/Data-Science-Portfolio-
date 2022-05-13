@@ -39,7 +39,7 @@ Using a pre-processed breast cancer dataset, a Principal Component Analysis was 
 
   **Example Output::**
 
-![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/root/images/PCA.png)
+![](images/Confusion Matrix.png)
 
 ## 4 Hadoop MRJob MapReduce:
 
