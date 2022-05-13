@@ -9,7 +9,7 @@ The dataset has 800 indiviudal hums and whistles audio samples, consisting of St
 
   **Example Confusion Matrix obtained from the classification task:**
 
-![](/images/Confusion Matrix.png)
+![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Ether.png)
 
 ## 2. Classification Using a Neural Network:
 
