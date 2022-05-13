@@ -26,8 +26,7 @@ This example includes the Fashion MNIST dataset. The data training set totals 60
  
   **Example training accuracy output:**
   
- ![](/images/mages/MLP.png)
-
+ ![](/images/MLP.png)
 
 
 ## [3. Regression Examples](https://github.com/DavidJCullen/Regression-/blob/main/Regression.ipynb):
