@@ -1,12 +1,10 @@
 # Project Examples:
 
-This is an overview of projects I have completed using Python. 
-
 ## 1. Classification Using Machine Learning Pipeline
 
-The dataset has 800 indiviudal hums and whistles audio samples, consisting of Starwars and Harry Potter theme tunes. The problem solved is a binary classification, building a machine learning pipeline that takes as an input Potter or Starwars audio segment and predicts the song and label.
+The dataset has over 800 individual hums and whistles audio samples, consisting of Star Wars and Harry Potter labelled theme tunes. This is an example of a binary classification problem, that uses a machine learning pipeline to take an audio segment and predict its corresponding classes/label.
 
- **Example Spectrogram of Audio Sample:**
+ **Example Spectrogram of Audio Sample: **
 
 ![](/images/Spectogram.png)
 
@@ -19,38 +17,38 @@ The dataset has 800 indiviudal hums and whistles audio samples, consisting of St
 
 ## 2. Classification Using a Neural Network:
 
-The Fashion MNIST data was loaded using the utils.py file. The data training set totals 60,000 images and the test set 10,000 images, consisting of 10 classes  of various fashion items (shirt,sandal, pullover etc). Each image is 28 pixels in height and 28 pixels in width, representing a total of 784 pixels. An MLP pipeline was built to classsify each image covering:
+This example includes the Fashion MNIST dataset. The data training set totals 60,000 images and the test set 10,000 images, consisting of 10 classes of various fashion items (shirt, sandal, pullover etc). Each image is 28 pixels in height and 28 pixels in width, representing a total of 784 pixels. A Multi-Layer Perceptron pipeline was built to classify each image, covering:
 
-**Stem**: Each image was divided into non- overlapping patches. The patch size was 14 X 14 (creating 4 patches from one 28 x 28 image). In order to do this torch, unfold was used specifying the dimensions which the unfolds were to occur, the kernel size (slice size) and stride (step) length. The unfold was reshaped to the following tensor shape: 256 (batches), 4 (channels) and 196 (Height X Width).
+**Stem**: Each image was divided into non- overlapping patches. The patch size was 14 X 14 (creating 4 patches from one 28 x 28 image). Each image was reshaped and stored in a tensor of shape: 256 (batches), 4 (channels), 196 (Height X Width).
 
 **Backbone**: One block was created. The block consists of 3 fully connected layers:
 
- **O1**: The transpose of x was passed to a linear layer and then to the RELU activation function.
+ **O1**: The transpose of x (input tensor) was passed to a linear layer and then to the RELU activation function.
  
- **O2** : The transpose of O1 was passed to a hidden linear layer and then to the RELU activation function.
+ **O2**: The transpose of O1 was passed to a hidden linear layer and then to the RELU activation function.
 
  **Output**: The mean of each class was passed to SoftMax cross entropy loss function. 
 
 
 ## 3. Regression Examples:
 
-Examples of regression from using an analytuical approach to find weights in linear regression, to expermenting with a variety of orders.
+Examples of regression using an analytical approach to find weights, experimenting with a variety of degrees (linear, cubic and quadratic).
 
 ![](/images/Regression Example.png)
 
 
 ## 4. Principle Component Analysis Example
 
-Using a pre-processed breast cancer dataset, a Principal Component Analysis was undertaken and a  scatterplot of all samples along two principal components has been provided.
+Using the  Breast Cancer Wisconsin (Diagnostic) Data Set a Principal Component Analysis was undertaken including a scatterplot to visualise the output.
 
 
   **Example Output::**
 
 ![](/images/PCA.png)
 
-## 4 Hadoop MRJob MapReduce:
+## 4 Hadoop MapReduce:
 
-Examples of big data processing using MapReduce including:
+Examples of big data processing Ethereum transaction data including:
 
    1. Part A: Timeseries Analysis 
    2. Part B: Top 10 Most Popular Services 
@@ -58,10 +56,6 @@ Examples of big data processing using MapReduce including:
    4. Part D:  Popular Scams and Gas Guzzlers
    
 ![](/images/Ether.png)
-
-
-
-
 
 
 
