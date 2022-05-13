@@ -6,10 +6,16 @@ This is an overview of projects I have completed using Python.
 
 The dataset has 800 indiviudal hums and whistles audio samples, consisting of Starwars and Harry Potter theme tunes. The problem solved is a binary classification, building a machine learning pipeline that takes as an input Potter or Starwars audio segment and predicts the song and label.
 
+ **Example Spectrogram of Audio Sample:**
+
+![](/images/Spectogram.png)
 
   **Example Confusion Matrix obtained from the classification task:**
 
 ![](/images/Confusion Matrix.png)
+
+
+![](/images/Spectogram.png)
 
 ## 2. Classification Using a Neural Network:
 
@@ -32,6 +38,7 @@ Examples of regression from using an analytuical approach to find weights in lin
 
 ![](/images/Regression Example.png)
 
+
 ## 4. Principle Component Analysis Example
 
 Using a pre-processed breast cancer dataset, a Principal Component Analysis was undertaken and a  scatterplot of all samples along two principal components has been provided.
@@ -39,7 +46,7 @@ Using a pre-processed breast cancer dataset, a Principal Component Analysis was 
 
   **Example Output::**
 
-![](/images/Confusion Matrix.png)
+![](/images/PCA.png)
 
 ## 4 Hadoop MRJob MapReduce:
 
