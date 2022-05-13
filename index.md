@@ -42,7 +42,15 @@ Using the pre-processed breast cancer dataset, a Principal Component Analysis ha
 
 # 4 Hadoop MRJob MapReduce:
 
-Examples of big data processing using MapReduce.
+Examples of big data processing using MapReduce including:
+
+   Part A: Timeseries Analysis 
+   Part B: Top 10 Most Popular Services 
+   Part C: Top 10 Most Active Miners 
+   Part D:  Popular Scams and Gas Guzzlers
+   
+![](https://github.com/DavidJCullen/Data-Science-Portfolio-/blob/gh-pages/images/Ether.png)
+   
 
 
 
