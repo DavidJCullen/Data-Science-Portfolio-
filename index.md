@@ -8,13 +8,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 This is an overview of projects I have completed using Python. 
 
-# Classification Machine Learning Pipeline
+# 1. Classification Using Machine Learning Pipeline
 
 The machine learning problem is in relation to #Hums and Whistles Audio Dataset Sample# of Starwars and Harry Potter themetunes. The problem that this work aims to solve is binary classification, building a machine learning pipeline that takes as an input a Potter or Starwars audio segment and predicts its song and label.
 
-
-# Multi-layer Perceptron Neural Network to Classify MNIST Fashion Dataset
-
+# 2. Classification Using a Neural Network
 
 **Stem**: A member function was created in Net Class. Each image was divided into non- overlapping patches. The patch size was 14 X 14 (creating 4 patches from one 28 x 28 image). In order to do this torch, unfold was used specifying the dimensions which the unfolds were to occur, the kernel size (slice size) and stride (step) length. The unfold was reshaped to the following tensor shape: 256 (batches), 4 (channels) and 196 (Height X Width).
 
@@ -28,25 +26,18 @@ Second Multi-Layer Perceptron:
 **Output**:Mean class: the mean of each class was passed to SoftMax cross entropy loss function. 
 
 
+# 3. Regression Examples:
+
+Examples of regression from using an analytuical approach to find weights in linear regression, to expermenting with a variety of orders.
 
 
-- Bulleted
-- List
+# 4 Hadoop MRJob MapReduce 
 
-1. Numbered
-2. List
+Examples of big data processing using MapReduce.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DavidJCullen/Data-Science-Portfolio-/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
