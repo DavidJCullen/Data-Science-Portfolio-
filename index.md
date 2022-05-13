@@ -24,7 +24,7 @@ This example includes the Fashion MNIST dataset. The data training set totals 60
  **Output**: The mean of each class was passed to SoftMax cross entropy loss function. 
 
 
-## [3. Regression Examples](https://github.com/DavidJCullen/Regression):
+## [3. Regression Examples](https://github.com/DavidJCullen/Regression-):
 
 Examples of regression using an analytical approach to find weights, experimenting with a variety of degrees (linear, cubic and quadratic).
 
