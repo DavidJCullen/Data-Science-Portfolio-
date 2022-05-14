@@ -5,6 +5,31 @@
 The dataset has over 800 individual hums and whistles audio samples, comprising Star Wars and Harry Potter labelled theme tunes. This is an example of a binary classification problem, that uses a machine learning pipeline to take an audio segment and predict its corresponding classes/label. 
 
 
+**Data Extraction/Data Preparation**
+
+Input: the input audio data in .wav format derives from MLEnd Hums and Whistles Potter and StarWars public dataset, totalling 417 Potter and 417 StarWars samples.
+
+**Transformation:**
+
+Feature extraction is used to extract signal data from the input data.
+
+Feature selection Filtering using Pearson’s Correlation Coefficient above threhold of 0.50.
+
+Label Encoding converting Potter and StarWars categorical data to Boolean values (True and False).
+
+Linear tranformation: of the extracted feature data using MinMaxScaler.
+
+**Models:**
+
+A support Vector Machine, K-nearest neighbour classification and a Stacking Classifier using LogisticRegression as the final estimator has been used as a model for prediction on the dataset.
+
+Output: Transformed data passed to the machine learning models for training and validation
+
+**Model Evaluation:**
+
+Model validation performance evaluated using classification metrics (f-score, precision and recall) and Matthews correlation coefficient (MCC).
+
+
   **Example Confusion Matrix obtained from the classification task:**
 
 ![](/images/Confusion Matrix.png)
