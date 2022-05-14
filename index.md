@@ -4,31 +4,29 @@
 
 This is an example of a binary classification problem, that uses a machine learning pipeline to take an audio segment and predict its corresponding classes/label:
 
+  **Data Extraction/Data Preparation**
+   
+   Input: the input audio data in .wav format derives from MLEnd Hums and Whistles Potter and StarWars public dataset, totalling 417 Potter and 417   StarWars samples.
 
-       **Data Extraction/Data Preparation**
+  **Transformation:**
 
-       Input: the input audio data in .wav format derives from MLEnd Hums and Whistles Potter and StarWars public dataset, totalling 417 Potter and 417   StarWars samples.
+   Feature extraction was used to extract signal data from the input data.
 
-       **Transformation:**
+   Feature selection/filtering using Pearson’s Correlation Coefficient above threhold of 0.50.
 
-       Feature extraction was used to extract signal data from the input data.
+   Label encoding converting Potter and StarWars categorical data to boolean values (True and False).
 
-       Feature selection/filtering using Pearson’s Correlation Coefficient above threhold of 0.50.
+   Linear tranformation of the extracted feature data using MinMaxScaler.
 
-       Label encoding converting Potter and StarWars categorical data to boolean values (True and False).
+   **Models Explored:**
 
-       Linear tranformation of the extracted feature data using MinMaxScaler.
+   A support Vector Machine, K-nearest neighbour classification and a Stacking Classifier using LogisticRegression as the final estimator has been used as a model for prediction on the dataset.
 
-       **Models:**
+  Output: Transformed data passed to the machine learning models for training and validation.
 
-       A support Vector Machine, K-nearest neighbour classification and a Stacking Classifier using LogisticRegression as the final estimator has been used as a model for prediction on the dataset.
+  **Model Evaluation:**
 
-       Output: Transformed data passed to the machine learning models for training and validation.
-
-       **Model Evaluation:**
-
-       Model validation performance evaluated using classification metrics (f-score, precision and recall) and Matthews correlation coefficient (MCC).
-
+   Model validation performance evaluated using classification metrics (f-score, precision and recall) and Matthews correlation coefficient (MCC).
 
   **Example Confusion Matrix obtained from the classification task:**
 
