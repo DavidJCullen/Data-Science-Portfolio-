@@ -11,19 +11,19 @@ Input: the input audio data in .wav format derives from MLEnd Hums and Whistles 
 
 **Transformation:**
 
-Feature extraction is used to extract signal data from the input data.
+Feature extraction was used to extract signal data from the input data.
 
-Feature selection Filtering using Pearson’s Correlation Coefficient above threhold of 0.50.
+Feature selection/filtering using Pearson’s Correlation Coefficient above threhold of 0.50.
 
-Label Encoding converting Potter and StarWars categorical data to Boolean values (True and False).
+Label encoding converting Potter and StarWars categorical data to boolean values (True and False).
 
-Linear tranformation: of the extracted feature data using MinMaxScaler.
+Linear tranformation of the extracted feature data using MinMaxScaler.
 
 **Models:**
 
 A support Vector Machine, K-nearest neighbour classification and a Stacking Classifier using LogisticRegression as the final estimator has been used as a model for prediction on the dataset.
 
-Output: Transformed data passed to the machine learning models for training and validation
+Output: Transformed data passed to the machine learning models for training and validation.
 
 **Model Evaluation:**
 
