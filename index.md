@@ -2,7 +2,7 @@
 
 ## [1. Classification Using Machine Learning Pipeline](https://github.com/DavidJCullen/ML-Pipeline-for-Classification/blob/main/Hums_and_Whistles_ML_Pipeline_(Binary_Class)_MileEnd_Dataset_.ipynb)
 
-The dataset has over 800 individual hums and whistles audio samples, consisting of Star Wars and Harry Potter labelled theme tunes. This is an example of a binary classification problem, that uses a machine learning pipeline to take an audio segment and predict its corresponding classes/label.
+The dataset has over 800 individual hums and whistles audio samples, comprising Star Wars and Harry Potter labelled theme tunes. This is an example of a binary classification problem, that uses a machine learning pipeline to take an audio segment and predict its corresponding classes/label. 
 
 
   **Example Confusion Matrix obtained from the classification task:**
