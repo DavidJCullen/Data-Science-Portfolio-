@@ -70,14 +70,14 @@ Using the  Breast Cancer Wisconsin (Diagnostic) Data Set a Principal Component A
 
 ![](/images/PCA.png)
 
-## [5. Hadoop MapReduce](https://github.com/DavidJCullen/MapReduce-Example):
+## [5.MapReduce (Hadoop Cluster](https://github.com/DavidJCullen/MapReduce-Example):
 
-Examples of big data processing Ethereum transaction data including:
+Examples of big data processing and analysis using Ethereum transaction data:
 
-   1. Part A: Timeseries Analysis 
-   2. Part B: Top 10 Most Popular Services 
-   3. Part C: Top 10 Most Active Miners 
-   4. Part D:  Popular Scams and Gas Guzzlers
+   1. Part A: Timeseries Analysis of Ethereum Transactions:
+   2. Part B: Top 10 Most Popular Services on Ethereum:
+   3. Part C: Top 10 Most Active Etherem Miners:
+   4. Part D:  Popular Scams and Gas Guzzlers on Ethereum Ledger:
    
 ![](/images/Ether.png)
 
