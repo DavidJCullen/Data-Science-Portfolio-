@@ -59,7 +59,7 @@ Examples of regression using an analytical approach to find weights, experimenti
 ![](/images/Regression Example.png)
 
 
-## [4. Principal Component Analysis Example](https://github.com/DavidJCullen/PCA-Example/blob/main/Principle%20Component%20Analysis%20Example%20Using%20Wisconsin%20Breast%20Cancer%20Data.ipynb)
+## [4. Principal Component Analysis Example:](https://github.com/DavidJCullen/PCA-Example/blob/main/Principle%20Component%20Analysis%20Example%20Using%20Wisconsin%20Breast%20Cancer%20Data.ipynb)
 
 Using the  Breast Cancer Wisconsin (Diagnostic) Data Set a Principal Component Analysis was undertaken including a scatterplot to visualise the output.
 
@@ -68,7 +68,7 @@ Using the  Breast Cancer Wisconsin (Diagnostic) Data Set a Principal Component A
 
 ![](/images/PCA.png)
 
-## [5.MapReduce (Hadoop Cluster)](https://github.com/DavidJCullen/MapReduce-Example):
+## [5. MapReduce (Hadoop Cluster)](https://github.com/DavidJCullen/MapReduce-Example):
 
 Examples of big data processing and analysis using Ethereum transaction data:
 
