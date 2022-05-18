@@ -68,7 +68,7 @@ Using the  Breast Cancer Wisconsin (Diagnostic) Data Set a Principal Component A
 
 ![](/images/PCA.png)
 
-## [5.MapReduce (Hadoop Cluster](https://github.com/DavidJCullen/MapReduce-Example):
+## [5.MapReduce (Hadoop Cluster)](https://github.com/DavidJCullen/MapReduce-Example):
 
 Examples of big data processing and analysis using Ethereum transaction data:
 
