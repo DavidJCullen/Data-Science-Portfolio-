@@ -72,10 +72,10 @@ Using the  Breast Cancer Wisconsin (Diagnostic) Data Set a Principal Component A
 
 Examples of big data processing and analysis using Ethereum transaction data:
 
-   1. Part A: Timeseries Analysis of Ethereum Transactions:
-   2. Part B: Top 10 Most Popular Services on Ethereum:
-   3. Part C: Top 10 Most Active Etherem Miners:
-   4. Part D:  Popular Scams and Gas Guzzlers on Ethereum Ledger:
+   1. Part A: Timeseries Analysis of Ethereum Transactions.
+   2. Part B: Top 10 Most Popular Services on Ethereum.
+   3. Part C: Top 10 Most Active Etherem Miners.
+   4. Part D:  Popular Scams and Gas Guzzlers on Ethereum Ledger.
    
 ![](/images/Ether.png)
 
