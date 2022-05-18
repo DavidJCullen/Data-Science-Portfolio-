@@ -20,7 +20,7 @@ This is an example of a binary classification problem, that uses a machine learn
 
    **Models Explored:**
 
-   A support Vector Machine, K-nearest neighbour classification and a Stacking Classifier using LogisticRegression as the final estimator has been used as a model for prediction on the dataset.
+   A support Vector Machine, K-nearest neighbour classification and a Stacking Classifier using LogisticRegression as the final estimator have been used as models for prediction on the dataset.
 
   Output: Transformed data passed to the machine learning models for training and validation.
 
