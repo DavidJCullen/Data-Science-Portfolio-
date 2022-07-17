@@ -77,7 +77,7 @@ Examples of big data processing and analysis using Ethereum transaction data:
    3. Part C: Top 10 Most Active Etherem Miners.
    4. Part D:  Popular Scams and Gas Guzzlers on Ethereum Ledger.
    
-![](/images/Ether.png)
+![](/images/Eth Transactions.png)
 
 
 
